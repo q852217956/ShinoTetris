@@ -21,6 +21,8 @@ bool GameLayer::init() {
     gameArea -> setContentSize(Size(600, 960));
     gameArea -> setPosition(Vec2(60, 100));
     this -> addChild(gameArea);
+//    this -> movingTetrimino = Tetrimino::create();
+//    this -> nextTetrimino = Tetrimino::create();
     return true;
 }
 
@@ -31,11 +33,11 @@ void GameLayer::touchInit() {
         if (touchArea.containsPoint(touch -> getLocation())) {
             this -> isTouching = true;
             this -> scheduleOnce([=](float dt){
-                if (this -> isTouching) {
-                    this -> movingTetrimino -> move(DIRECTION::DOWN);
-                } else {
-                    this -> movingTetrimino -> move(DIRECTION::ROTATE);
-                }
+//                if (this -> isTouching) {
+//                    this -> movingTetrimino -> move(DIRECTION::DOWN);
+//                } else {
+//                    this -> movingTetrimino -> move(DIRECTION::ROTATE);
+//                }
             }, 0.25, "IsFloatOrDown");
             return true;
         } else {
@@ -52,5 +54,6 @@ void GameLayer::tetriminoDown(float dt) {
 }
 
 void GameLayer::control(DIRECTION direction) {
-    this -> movingTetrimino -> move(direction);
+//    this -> movingTetrimino -> move(direction);
+    this -> movingTetrimino -> isMoveable(DIRECTION::DOWN);
 }

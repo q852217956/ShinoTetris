@@ -27,9 +27,8 @@ enum class TETRIMINO_TYPE {
 class Tetrimino: public cocos2d::Ref {
 public:
     static Tetrimino *create();
-    virtual bool init();
 
-    void ismoveable(DIRECTION);
+    void isMoveable(DIRECTION);
     bool move(DIRECTION);
     std::array<cocos2d::Vec2, 4> posToMove;
 
@@ -37,6 +36,7 @@ protected:
     Mino *mino[4];
     std::array<cocos2d::Vec2, 4> pos;
     virtual std::array<cocos2d::Vec2, 4> isRotateable() = 0;
+
 };
 
 #endif /* Tetrimino_hpp */

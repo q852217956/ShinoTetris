@@ -7,6 +7,7 @@
 //
 
 #include "Mino.hpp"
+#include <array>
 
 USING_NS_CC;
 
@@ -31,6 +32,12 @@ bool Mino::init(Vec2 pos) {
     background -> setPosition(Vec2(0, 0));
     this -> addChild(background);
     this -> pos = pos;
+    auto eventListener = EventListenerCustom::create("isMoveable", [=](EventCustom *event){
+//        想好了再写
+
+    });
+    auto eventDispatcher = Director::getInstance() -> getEventDispatcher();
+    eventDispatcher -> addEventListenerWithFixedPriority(eventListener, 1);
     return true;
 }
 

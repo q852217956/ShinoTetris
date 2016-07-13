@@ -11,6 +11,7 @@
 
 #include "cocos2d.h"
 
+//    这个目前不用改
 class Mino: public cocos2d::Sprite {
 public:
     static Mino *create(cocos2d::Vec2);

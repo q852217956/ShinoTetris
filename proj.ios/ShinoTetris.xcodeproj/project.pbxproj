@@ -17,20 +17,20 @@
 		521A8EA919F11F5000D177D7 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 521A8EA819F11F5000D177D7 /* fonts */; };
 		52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B47A461A53D09B004E4C60 /* Security.framework */; };
 		B425F5541D36141100877452 /* GameLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B425F5521D36141100877452 /* GameLayer.cpp */; };
-		B425F5581D36273C00877452 /* Tetrimino.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B425F5561D36273C00877452 /* Tetrimino.cpp */; };
 		B425F55B1D36285F00877452 /* ControlButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B425F5591D36285F00877452 /* ControlButton.cpp */; };
-		B425F55E1D3635F800877452 /* Mino.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B425F55C1D3635F800877452 /* Mino.cpp */; };
 		B48D6BF71D2ACAFA00ABB114 /* libcocos2d_release.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B48D6BF41D2AC63A00ABB114 /* libcocos2d_release.a */; };
 		B48D6BFC1D2ACCAE00ABB114 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B48D6BFA1D2ACCAE00ABB114 /* Default-568h@2x.png */; };
 		B48D6BFE1D2ACCF900ABB114 /* res in Resources */ = {isa = PBXBuildFile; fileRef = 3EACC98E19EE6D4300EB3C5E /* res */; };
+		B4BC45211D369F9A00CD15A0 /* Mino.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4BC450D1D369F9A00CD15A0 /* Mino.cpp */; };
+		B4BC45221D369F9A00CD15A0 /* Tetrimino_I.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4BC450F1D369F9A00CD15A0 /* Tetrimino_I.cpp */; };
+		B4BC45231D369F9A00CD15A0 /* Tetrimino_J.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4BC45111D369F9A00CD15A0 /* Tetrimino_J.cpp */; };
+		B4BC45241D369F9A00CD15A0 /* Tetrimino_L.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4BC45131D369F9A00CD15A0 /* Tetrimino_L.cpp */; };
+		B4BC45251D369F9A00CD15A0 /* Tetrimino_O.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4BC45151D369F9A00CD15A0 /* Tetrimino_O.cpp */; };
+		B4BC45261D369F9A00CD15A0 /* Tetrimino_S.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4BC45171D369F9A00CD15A0 /* Tetrimino_S.cpp */; };
+		B4BC45271D369F9A00CD15A0 /* Tetrimino_T.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4BC45191D369F9A00CD15A0 /* Tetrimino_T.cpp */; };
+		B4BC45281D369F9A00CD15A0 /* Tetrimino_Z.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4BC451B1D369F9A00CD15A0 /* Tetrimino_Z.cpp */; };
+		B4BC45291D369F9A00CD15A0 /* Tetrimino.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4BC451D1D369F9A00CD15A0 /* Tetrimino.cpp */; };
 		B4C3CDD21D33B74600C2BE11 /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4C3CDD01D33B74600C2BE11 /* GameScene.cpp */; };
-		B4FE794F1D36500700BAE04F /* Tetrimino_I.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4FE794D1D36500700BAE04F /* Tetrimino_I.cpp */; };
-		B4FE79521D36528300BAE04F /* Tetrimino_J.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4FE79501D36528300BAE04F /* Tetrimino_J.cpp */; };
-		B4FE79551D36529100BAE04F /* Tetrimino_L.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4FE79531D36529100BAE04F /* Tetrimino_L.cpp */; };
-		B4FE79581D3652AC00BAE04F /* Tetrimino_O.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4FE79561D3652AC00BAE04F /* Tetrimino_O.cpp */; };
-		B4FE795B1D3652B800BAE04F /* Tetrimino_S.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4FE79591D3652B800BAE04F /* Tetrimino_S.cpp */; };
-		B4FE795E1D3652CC00BAE04F /* Tetrimino_Z.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4FE795C1D3652CC00BAE04F /* Tetrimino_Z.cpp */; };
-		B4FE79611D3652D700BAE04F /* Tetrimino_T.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4FE795F1D3652D700BAE04F /* Tetrimino_T.cpp */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -66,32 +66,33 @@
 		B425F5521D36141100877452 /* GameLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameLayer.cpp; sourceTree = "<group>"; };
 		B425F5531D36141100877452 /* GameLayer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GameLayer.hpp; sourceTree = "<group>"; };
 		B425F5551D36148A00877452 /* ControlButtonDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControlButtonDelegate.h; sourceTree = "<group>"; };
-		B425F5561D36273C00877452 /* Tetrimino.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tetrimino.cpp; sourceTree = "<group>"; };
-		B425F5571D36273C00877452 /* Tetrimino.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Tetrimino.hpp; sourceTree = "<group>"; };
 		B425F5591D36285F00877452 /* ControlButton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ControlButton.cpp; sourceTree = "<group>"; };
 		B425F55A1D36285F00877452 /* ControlButton.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ControlButton.hpp; sourceTree = "<group>"; };
-		B425F55C1D3635F800877452 /* Mino.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mino.cpp; sourceTree = "<group>"; };
-		B425F55D1D3635F800877452 /* Mino.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Mino.hpp; sourceTree = "<group>"; };
 		B48D6BF41D2AC63A00ABB114 /* libcocos2d_release.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcocos2d_release.a; path = "/Applications/Cocos/Cocos2d-x/cocos2d-x-3.11-1.1/pre_built/libcocos2d_release.a"; sourceTree = "<absolute>"; };
 		B48D6BFA1D2ACCAE00ABB114 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "ios/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
 		B48D6BFB1D2ACCAE00ABB114 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ios/Info.plist; sourceTree = SOURCE_ROOT; };
+		B4BC450D1D369F9A00CD15A0 /* Mino.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Mino.cpp; path = MinoClass/Mino.cpp; sourceTree = "<group>"; };
+		B4BC450E1D369F9A00CD15A0 /* Mino.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Mino.hpp; path = MinoClass/Mino.hpp; sourceTree = "<group>"; };
+		B4BC450F1D369F9A00CD15A0 /* Tetrimino_I.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Tetrimino_I.cpp; path = MinoClass/Tetrimino_I.cpp; sourceTree = "<group>"; };
+		B4BC45101D369F9A00CD15A0 /* Tetrimino_I.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Tetrimino_I.hpp; path = MinoClass/Tetrimino_I.hpp; sourceTree = "<group>"; };
+		B4BC45111D369F9A00CD15A0 /* Tetrimino_J.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Tetrimino_J.cpp; path = MinoClass/Tetrimino_J.cpp; sourceTree = "<group>"; };
+		B4BC45121D369F9A00CD15A0 /* Tetrimino_J.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Tetrimino_J.hpp; path = MinoClass/Tetrimino_J.hpp; sourceTree = "<group>"; };
+		B4BC45131D369F9A00CD15A0 /* Tetrimino_L.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Tetrimino_L.cpp; path = MinoClass/Tetrimino_L.cpp; sourceTree = "<group>"; };
+		B4BC45141D369F9A00CD15A0 /* Tetrimino_L.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Tetrimino_L.hpp; path = MinoClass/Tetrimino_L.hpp; sourceTree = "<group>"; };
+		B4BC45151D369F9A00CD15A0 /* Tetrimino_O.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Tetrimino_O.cpp; path = MinoClass/Tetrimino_O.cpp; sourceTree = "<group>"; };
+		B4BC45161D369F9A00CD15A0 /* Tetrimino_O.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Tetrimino_O.hpp; path = MinoClass/Tetrimino_O.hpp; sourceTree = "<group>"; };
+		B4BC45171D369F9A00CD15A0 /* Tetrimino_S.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Tetrimino_S.cpp; path = MinoClass/Tetrimino_S.cpp; sourceTree = "<group>"; };
+		B4BC45181D369F9A00CD15A0 /* Tetrimino_S.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Tetrimino_S.hpp; path = MinoClass/Tetrimino_S.hpp; sourceTree = "<group>"; };
+		B4BC45191D369F9A00CD15A0 /* Tetrimino_T.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Tetrimino_T.cpp; path = MinoClass/Tetrimino_T.cpp; sourceTree = "<group>"; };
+		B4BC451A1D369F9A00CD15A0 /* Tetrimino_T.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Tetrimino_T.hpp; path = MinoClass/Tetrimino_T.hpp; sourceTree = "<group>"; };
+		B4BC451B1D369F9A00CD15A0 /* Tetrimino_Z.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Tetrimino_Z.cpp; path = MinoClass/Tetrimino_Z.cpp; sourceTree = "<group>"; };
+		B4BC451C1D369F9A00CD15A0 /* Tetrimino_Z.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Tetrimino_Z.hpp; path = MinoClass/Tetrimino_Z.hpp; sourceTree = "<group>"; };
+		B4BC451D1D369F9A00CD15A0 /* Tetrimino.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Tetrimino.cpp; path = MinoClass/Tetrimino.cpp; sourceTree = "<group>"; };
+		B4BC451E1D369F9A00CD15A0 /* Tetrimino.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Tetrimino.hpp; path = MinoClass/Tetrimino.hpp; sourceTree = "<group>"; };
+		B4BC451F1D369F9A00CD15A0 /* Tetriminos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tetriminos.h; path = MinoClass/Tetriminos.h; sourceTree = "<group>"; };
 		B4C3CDD01D33B74600C2BE11 /* GameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameScene.cpp; sourceTree = "<group>"; };
 		B4C3CDD11D33B74600C2BE11 /* GameScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GameScene.hpp; sourceTree = "<group>"; };
 		B4C3CDD31D33B9E200C2BE11 /* Direction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Direction.h; sourceTree = "<group>"; };
-		B4FE794D1D36500700BAE04F /* Tetrimino_I.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tetrimino_I.cpp; sourceTree = "<group>"; };
-		B4FE794E1D36500700BAE04F /* Tetrimino_I.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Tetrimino_I.hpp; sourceTree = "<group>"; };
-		B4FE79501D36528300BAE04F /* Tetrimino_J.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tetrimino_J.cpp; sourceTree = "<group>"; };
-		B4FE79511D36528300BAE04F /* Tetrimino_J.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Tetrimino_J.hpp; sourceTree = "<group>"; };
-		B4FE79531D36529100BAE04F /* Tetrimino_L.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tetrimino_L.cpp; sourceTree = "<group>"; };
-		B4FE79541D36529100BAE04F /* Tetrimino_L.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Tetrimino_L.hpp; sourceTree = "<group>"; };
-		B4FE79561D3652AC00BAE04F /* Tetrimino_O.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tetrimino_O.cpp; sourceTree = "<group>"; };
-		B4FE79571D3652AC00BAE04F /* Tetrimino_O.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Tetrimino_O.hpp; sourceTree = "<group>"; };
-		B4FE79591D3652B800BAE04F /* Tetrimino_S.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tetrimino_S.cpp; sourceTree = "<group>"; };
-		B4FE795A1D3652B800BAE04F /* Tetrimino_S.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Tetrimino_S.hpp; sourceTree = "<group>"; };
-		B4FE795C1D3652CC00BAE04F /* Tetrimino_Z.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tetrimino_Z.cpp; sourceTree = "<group>"; };
-		B4FE795D1D3652CC00BAE04F /* Tetrimino_Z.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Tetrimino_Z.hpp; sourceTree = "<group>"; };
-		B4FE795F1D3652D700BAE04F /* Tetrimino_T.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tetrimino_T.cpp; sourceTree = "<group>"; };
-		B4FE79601D3652D700BAE04F /* Tetrimino_T.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Tetrimino_T.hpp; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -213,7 +214,7 @@
 				B425F5531D36141100877452 /* GameLayer.hpp */,
 				B425F5591D36285F00877452 /* ControlButton.cpp */,
 				B425F55A1D36285F00877452 /* ControlButton.hpp */,
-				B4FE79621D3652FF00BAE04F /* Minos */,
+				B4BC452B1D369FDA00CD15A0 /* MinoClass */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -227,29 +228,30 @@
 			name = libcocos;
 			sourceTree = "<group>";
 		};
-		B4FE79621D3652FF00BAE04F /* Minos */ = {
+		B4BC452B1D369FDA00CD15A0 /* MinoClass */ = {
 			isa = PBXGroup;
 			children = (
-				B425F5561D36273C00877452 /* Tetrimino.cpp */,
-				B425F5571D36273C00877452 /* Tetrimino.hpp */,
-				B425F55C1D3635F800877452 /* Mino.cpp */,
-				B425F55D1D3635F800877452 /* Mino.hpp */,
-				B4FE794D1D36500700BAE04F /* Tetrimino_I.cpp */,
-				B4FE794E1D36500700BAE04F /* Tetrimino_I.hpp */,
-				B4FE79501D36528300BAE04F /* Tetrimino_J.cpp */,
-				B4FE79511D36528300BAE04F /* Tetrimino_J.hpp */,
-				B4FE79531D36529100BAE04F /* Tetrimino_L.cpp */,
-				B4FE79541D36529100BAE04F /* Tetrimino_L.hpp */,
-				B4FE79561D3652AC00BAE04F /* Tetrimino_O.cpp */,
-				B4FE79571D3652AC00BAE04F /* Tetrimino_O.hpp */,
-				B4FE79591D3652B800BAE04F /* Tetrimino_S.cpp */,
-				B4FE795A1D3652B800BAE04F /* Tetrimino_S.hpp */,
-				B4FE795C1D3652CC00BAE04F /* Tetrimino_Z.cpp */,
-				B4FE795D1D3652CC00BAE04F /* Tetrimino_Z.hpp */,
-				B4FE795F1D3652D700BAE04F /* Tetrimino_T.cpp */,
-				B4FE79601D3652D700BAE04F /* Tetrimino_T.hpp */,
+				B4BC450D1D369F9A00CD15A0 /* Mino.cpp */,
+				B4BC450E1D369F9A00CD15A0 /* Mino.hpp */,
+				B4BC450F1D369F9A00CD15A0 /* Tetrimino_I.cpp */,
+				B4BC45101D369F9A00CD15A0 /* Tetrimino_I.hpp */,
+				B4BC45111D369F9A00CD15A0 /* Tetrimino_J.cpp */,
+				B4BC45121D369F9A00CD15A0 /* Tetrimino_J.hpp */,
+				B4BC45131D369F9A00CD15A0 /* Tetrimino_L.cpp */,
+				B4BC45141D369F9A00CD15A0 /* Tetrimino_L.hpp */,
+				B4BC45151D369F9A00CD15A0 /* Tetrimino_O.cpp */,
+				B4BC45161D369F9A00CD15A0 /* Tetrimino_O.hpp */,
+				B4BC45171D369F9A00CD15A0 /* Tetrimino_S.cpp */,
+				B4BC45181D369F9A00CD15A0 /* Tetrimino_S.hpp */,
+				B4BC45191D369F9A00CD15A0 /* Tetrimino_T.cpp */,
+				B4BC451A1D369F9A00CD15A0 /* Tetrimino_T.hpp */,
+				B4BC451B1D369F9A00CD15A0 /* Tetrimino_Z.cpp */,
+				B4BC451C1D369F9A00CD15A0 /* Tetrimino_Z.hpp */,
+				B4BC451D1D369F9A00CD15A0 /* Tetrimino.cpp */,
+				B4BC451E1D369F9A00CD15A0 /* Tetrimino.hpp */,
+				B4BC451F1D369F9A00CD15A0 /* Tetriminos.h */,
 			);
-			name = Minos;
+			name = MinoClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,22 +319,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B425F55E1D3635F800877452 /* Mino.cpp in Sources */,
-				B4FE794F1D36500700BAE04F /* Tetrimino_I.cpp in Sources */,
-				B4FE79551D36529100BAE04F /* Tetrimino_L.cpp in Sources */,
+				B4BC45231D369F9A00CD15A0 /* Tetrimino_J.cpp in Sources */,
 				B4C3CDD21D33B74600C2BE11 /* GameScene.cpp in Sources */,
+				B4BC45271D369F9A00CD15A0 /* Tetrimino_T.cpp in Sources */,
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
-				B4FE795B1D3652B800BAE04F /* Tetrimino_S.cpp in Sources */,
+				B4BC45221D369F9A00CD15A0 /* Tetrimino_I.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
+				B4BC45251D369F9A00CD15A0 /* Tetrimino_O.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
-				B4FE79581D3652AC00BAE04F /* Tetrimino_O.cpp in Sources */,
+				B4BC45211D369F9A00CD15A0 /* Mino.cpp in Sources */,
+				B4BC45291D369F9A00CD15A0 /* Tetrimino.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 				B425F5541D36141100877452 /* GameLayer.cpp in Sources */,
-				B425F5581D36273C00877452 /* Tetrimino.cpp in Sources */,
-				B4FE79521D36528300BAE04F /* Tetrimino_J.cpp in Sources */,
+				B4BC45241D369F9A00CD15A0 /* Tetrimino_L.cpp in Sources */,
+				B4BC45261D369F9A00CD15A0 /* Tetrimino_S.cpp in Sources */,
 				B425F55B1D36285F00877452 /* ControlButton.cpp in Sources */,
-				B4FE79611D3652D700BAE04F /* Tetrimino_T.cpp in Sources */,
-				B4FE795E1D3652CC00BAE04F /* Tetrimino_Z.cpp in Sources */,
+				B4BC45281D369F9A00CD15A0 /* Tetrimino_Z.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

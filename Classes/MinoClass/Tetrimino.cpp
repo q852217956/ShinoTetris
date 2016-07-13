@@ -7,30 +7,20 @@
 //
 
 #include "Tetrimino.hpp"
+#include "Tetriminos.h"
 
 USING_NS_CC;
 
 Tetrimino *Tetrimino::create() {
-    
-    Tetrimino *tetrimino = new(std::nothrow) Tetrimino();
-    if (tetrimino && tetrimino -> init()) {
-        tetrimino -> autorelease();
-        return tetrimino;
-    } else {
-        delete tetrimino;
-        tetrimino = nullptr;
-        return nullptr;
-    }
+//    随机生成Tetrimino,确定子类后调用该子类的create方法即可
+//    以Tetrimino_I为例
+    auto tetrimino = Tetrimino_I::create();
+    return tetrimino;
 }
 
-bool Tetrimino::init() {
-    for (int i = 0; i < 4; i++) {
-        this -> pos[i] = this -> mino[i] -> getPos();
-    }
-    return true;
-}
-
-void Tetrimino::ismoveable(DIRECTION direction) {
+void Tetrimino::isMoveable(DIRECTION direction) {
+//    根据direction选择处理方式，返回处理好的坐标
+//    direction枚举定义在Direction.h头文件
     switch (direction) {
         case DIRECTION::LEFT :
             break;
@@ -42,6 +32,12 @@ void Tetrimino::ismoveable(DIRECTION direction) {
         case DIRECTION::DOWN :
             break;
     }
+//    返回相对坐标后处理成真实的坐标
+//    消息发送
+    auto isMoveableEvent = new EventCustom("isMoveable");
+    isMoveableEvent -> setUserData(&(this -> posToMove));
+    auto eventDispatcher = Director::getInstance() -> getEventDispatcher();
+    eventDispatcher -> dispatchEvent(isMoveableEvent);
 }
 
 bool Tetrimino::move(DIRECTION direction) {

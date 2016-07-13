@@ -11,11 +11,11 @@
 
 #include "Tetrimino.hpp"
 
-class Tetrimino_I: public cocos2d::Ref {
+class Tetrimino_I: public Tetrimino {
 public:
     static Tetrimino_I *cerate();
     bool init();
-    virtual void isRotateable();
+    virtual std::array<cocos2d::Vec2, 4> isRotateable();
 };
 
 #endif /* Tetrimino_I_hpp */
