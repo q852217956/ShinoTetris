@@ -11,9 +11,9 @@
 
 #include "Tetrimino.hpp"
 
-class Tetrimino_I: public Tetrimino {
+class Tetrimino_I : public Tetrimino {
 public:
-    static Tetrimino_I *cerate();
+    static Tetrimino_I *create();
     bool init();
     virtual std::array<cocos2d::Vec2, 4> isRotateable();
 };

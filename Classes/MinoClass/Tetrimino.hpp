@@ -31,10 +31,14 @@ public:
     void isMoveable(DIRECTION);
     bool move(DIRECTION);
     std::array<cocos2d::Vec2, 4> posToMove;
+	std::array<cocos2d::Vec2, 4> posToMove_Real;
 
 protected:
     Mino *mino[4];
-    std::array<cocos2d::Vec2, 4> pos;
+	int rotateType;
+	int totalRotateType;
+	std::array<cocos2d::Vec2, 4> pos;
+	std::array<cocos2d::Vec2, 4> rotate[4];
     virtual std::array<cocos2d::Vec2, 4> isRotateable() = 0;
 
 };

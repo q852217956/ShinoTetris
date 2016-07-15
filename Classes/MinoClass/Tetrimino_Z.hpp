@@ -9,6 +9,13 @@
 #ifndef Tetrimino_Z_hpp
 #define Tetrimino_Z_hpp
 
-#include <stdio.h>
+#include "Tetrimino.hpp"
+
+class Tetrimino_Z : public Tetrimino {
+public:
+	static Tetrimino_Z *create();
+	bool init();
+	virtual std::array<cocos2d::Vec2, 4> isRotateable();
+};
 
 #endif /* Tetrimino_Z_hpp */
